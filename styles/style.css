@@ -1,0 +1,116 @@
+.header {
+  padding-bottom: 15px;
+  font-weight: 600;
+  font-size: 16px;
+  color: #717a86;
+  border-bottom: 1px solid #717a86;
+}
+
+.navigation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 28px;
+  gap: 90px;
+  width: 100%;
+}
+
+.navigation__links {
+  display: flex;
+  gap: 85px;
+  line-height: 21px;
+}
+
+.navigation__links-item {
+  text-align: center;
+  list-style-type: none;
+}
+
+.navigation__links-item-link {
+  text-decoration: none;
+}
+
+.navigation__links-social {
+  display: flex;
+  gap: 23px;
+}
+
+.navigation__links-social-items {
+  list-style-type: none;
+}
+
+.heading {
+  display: grid;
+  grid-template-columns: 930px 300px;
+  grid-template-rows: auto auto;
+  justify-content: center;
+  margin-top: 30px;
+  gap: 60px;
+}
+
+.heading__about {
+  display: flex;
+  height: 450px;
+  flex-direction: column;
+  gap: 20px;
+  padding: 64px 30px;
+  background-image: url("../images/Rectangle\ 94.jpg");
+}
+
+.heading__about-header {
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 50px;
+  color: #717a86;
+}
+
+.heading__about-text {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  color: #717a86;
+}
+
+.heading__about-button {
+  width: 210px;
+  height: 50px;
+  border-style: none;
+  color: white;
+  background-color:#7C879D;
+  margin-top: 85px;
+}
+
+.heading__item-text {
+  padding-bottom: 53px;
+}
+
+.about {
+  display: grid;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 53px;
+}
+
+.about__grid-container {
+  display: grid;
+  grid-auto-columns: 1fr;
+  grid-template-columns: 630px 630px;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 30px;
+  justify-content: center;
+  grid-template-areas:
+    "about__main-item-container ."
+    "about__main-item-container ."
+    "about__main-item-container .";
+}
+
+.about__main-item-container {
+  grid-area: about__main-item-container;
+}
+
+.about__item {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  border: 1px solid #e3e4e7;
+}
